@@ -3,6 +3,7 @@ import { useParams, Navigate } from 'react-router-dom';
 import { niches } from '../data/niches';
 import Header from '../components/Header';
 import ROICalculator from '../components/ROICalculator';
+import SEO from '../components/SEO';
 
 export default function NichePage() {
   const { nicheId } = useParams();
@@ -14,6 +15,11 @@ export default function NichePage() {
 
   return (
     <div className="w-full">
+      <SEO 
+        title={`Loyalty Program for ${config.name}`}
+        description={`Turn your ${config.name} customers into daily regulars with Loyalist. ${config.heroSubtitle}`}
+        url={`/${nicheId}`}
+      />
       <Header />
       
       <main className="pt-32 pb-24 px-6 md:px-12 max-w-7xl mx-auto">

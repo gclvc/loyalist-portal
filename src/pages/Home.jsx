@@ -1,9 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 export default function Home() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Loyalist",
+    "operatingSystem": "Web, iOS, Android",
+    "applicationCategory": "BusinessApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "79.00",
+      "priceCurrency": "GBP"
+    },
+    "description": "Premium digital loyalty platform for local businesses using Apple Wallet and Google Pay.",
+    "url": "https://loyalist.digital"
+  };
+
   return (
     <div className="bg-background text-pure-white w-full overflow-hidden">
+      <SEO schema={schema} />
       
 
 <div className="fixed top-6 w-full z-50 flex justify-center px-4 pointer-events-none transition-all duration-500" id="nav-wrapper">
