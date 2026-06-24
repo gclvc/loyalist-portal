@@ -90,7 +90,7 @@ export default function Home() {
                 <div className="w-8 h-8 rounded-full border-2 border-[#050505] bg-loyalist-purple flex items-center justify-center text-[10px] font-bold text-pure-white">+5k</div>
             </div>
             <p className="text-pure-white/50 font-label-md text-xs">
-                Join 5,000+ local businesses growing today.
+                Join 30,000+ local businesses growing today.
             </p>
         </div>
         <p className="text-pure-white/40 font-label-md text-sm flex items-center gap-2 mt-2">
@@ -113,7 +113,7 @@ export default function Home() {
                 <div className="flex text-[#FFD700] text-xl mb-1 drop-shadow-[0_0_10px_rgba(255,215,0,0.5)]">
                     ★★★★★
                 </div>
-                <p className="font-label-md text-pure-white/60 text-sm">Rated 4.9/5 by 5,000+ businesses</p>
+                <p className="font-label-md text-pure-white/60 text-sm">Rated 4.9/5 by 30,000+ businesses</p>
             </div>
             
             <div className="flex flex-wrap justify-center items-center gap-10 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
@@ -214,57 +214,94 @@ export default function Home() {
 </div>
 
 
-<div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 auto-rows-[250px]">
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-
-<div className="col-span-1 md:col-span-2 lg:col-span-2 row-span-2 rounded-3xl bg-[#0A0A0A] border border-pure-white/10 overflow-hidden relative group">
-<div className="absolute inset-0 bg-gradient-to-br from-loyalist-purple/20 to-transparent z-0"></div>
-<div className="p-10 relative z-10 h-full flex flex-col justify-end">
-<h3 className="font-display-lg-mobile text-3xl text-pure-white mb-2">Native Integration</h3>
-<p className="text-pure-white/60 text-lg max-w-sm">Directly into Apple Wallet and Google Pay. No apps to download.</p>
-</div>
-<img className="absolute -right-20 -top-20 w-[120%] object-cover opacity-80 group-hover:scale-105 transition-transform duration-700 ease-out z-0 mix-blend-screen" alt="Card Types" src="/assets/card_types.png"/>
-</div>
-
-
-<div className="col-span-1 lg:col-span-1 row-span-1 rounded-3xl bg-[#0A0A0A] border border-pure-white/10 p-8 flex flex-col justify-between hover:border-mint-accelerator/50 transition-colors group">
-<div className="w-12 h-12 rounded-full bg-loyalist-purple/20 flex items-center justify-center text-mint-accelerator">
+<div className="rounded-3xl bg-[#0A0A0A] border border-pure-white/10 p-8 flex flex-col justify-between hover:border-mint-accelerator/50 transition-colors group relative overflow-hidden">
+<div className="absolute -right-10 -top-10 w-32 h-32 bg-mint-accelerator blur-[60px] opacity-10 group-hover:opacity-20 transition-opacity"></div>
+<div className="w-12 h-12 rounded-full bg-pure-white/5 flex items-center justify-center text-mint-accelerator mb-6 relative z-10 border border-pure-white/10">
 <span className="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">approval</span>
 </div>
-<div>
-<h3 className="text-xl font-bold text-pure-white mb-1">Stamps</h3>
-<p className="text-pure-white/50 text-sm">Classic 'buy 9 get 1' experience.</p>
+<div className="relative z-10">
+<h3 className="text-xl font-bold text-pure-white mb-2">Stamps</h3>
+<p className="text-pure-white/50 text-sm">Works on the mechanics: Buy 10 and get the 11th as a gift.</p>
 </div>
 </div>
 
-
-<div className="col-span-1 lg:col-span-1 row-span-1 rounded-3xl bg-[#0A0A0A] border border-pure-white/10 p-8 flex flex-col justify-between hover:border-mint-accelerator/50 transition-colors group">
-<div className="w-12 h-12 rounded-full bg-mint-accelerator/10 flex items-center justify-center text-mint-accelerator">
+<div className="rounded-3xl bg-[#0A0A0A] border border-pure-white/10 p-8 flex flex-col justify-between hover:border-mint-accelerator/50 transition-colors group relative overflow-hidden">
+<div className="absolute -right-10 -top-10 w-32 h-32 bg-mint-accelerator blur-[60px] opacity-10 group-hover:opacity-20 transition-opacity"></div>
+<div className="w-12 h-12 rounded-full bg-pure-white/5 flex items-center justify-center text-mint-accelerator mb-6 relative z-10 border border-pure-white/10">
 <span className="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">payments</span>
 </div>
-<div>
-<h3 className="text-xl font-bold text-pure-white mb-1">Cashback</h3>
-<p className="text-pure-white/50 text-sm">Instant digital balance rewards.</p>
-</div>
-</div>
-
-
-<div className="col-span-1 md:col-span-2 lg:col-span-2 row-span-1 rounded-3xl bg-[#0A0A0A] border border-pure-white/10 p-8 flex items-center justify-between hover:border-mint-accelerator/50 transition-colors group relative overflow-hidden">
-<div className="absolute right-0 top-0 w-64 h-64 bg-loyalist-purple rounded-full blur-[80px] opacity-20 group-hover:opacity-40 transition-opacity"></div>
 <div className="relative z-10">
-<h3 className="text-2xl font-bold text-pure-white mb-2">Multipass & Subscriptions</h3>
-<p className="text-pure-white/50 text-base max-w-xs">Bundle services into a single, reloadable digital pass.</p>
-</div>
-<div className="relative z-10 w-16 h-16 rounded-full bg-white/5 border border-white/10 flex items-center justify-center backdrop-blur-md">
-<span className="material-symbols-outlined text-3xl text-pure-white">layers</span>
+<h3 className="text-xl font-bold text-pure-white mb-2">Cashback</h3>
+<p className="text-pure-white/50 text-sm">Give and redeem customers points for purchases instantly.</p>
 </div>
 </div>
 
+<div className="rounded-3xl bg-[#0A0A0A] border border-pure-white/10 p-8 flex flex-col justify-between hover:border-loyalist-purple/50 transition-colors group relative overflow-hidden">
+<div className="absolute -right-10 -top-10 w-32 h-32 bg-loyalist-purple blur-[60px] opacity-10 group-hover:opacity-20 transition-opacity"></div>
+<div className="w-12 h-12 rounded-full bg-pure-white/5 flex items-center justify-center text-loyalist-purple mb-6 relative z-10 border border-pure-white/10">
+<span className="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">military_tech</span>
+</div>
+<div className="relative z-10">
+<h3 className="text-xl font-bold text-pure-white mb-2">Reward</h3>
+<p className="text-pure-white/50 text-sm">Classic discount system with several earning levels.</p>
+</div>
+</div>
 
-<div className="col-span-1 md:col-span-1 lg:col-span-1 row-span-1 rounded-3xl bg-loyalist-purple border border-pure-white/20 p-8 flex flex-col justify-center relative overflow-hidden group">
-<div className="absolute inset-0 bg-grid-pattern opacity-30"></div>
-<h3 className="text-3xl font-bold text-pure-white mb-2 relative z-10">+ 5 More</h3>
-<p className="text-pure-white/70 text-sm relative z-10">Gift Cards, Coupons, Membership Tiers & Discounts.</p>
+<div className="rounded-3xl bg-[#0A0A0A] border border-pure-white/10 p-8 flex flex-col justify-between hover:border-[#FFD700]/50 transition-colors group relative overflow-hidden">
+<div className="absolute -right-10 -top-10 w-32 h-32 bg-[#FFD700] blur-[60px] opacity-10 group-hover:opacity-20 transition-opacity"></div>
+<div className="w-12 h-12 rounded-full bg-pure-white/5 flex items-center justify-center text-[#FFD700] mb-6 relative z-10 border border-pure-white/10">
+<span className="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">stars</span>
+</div>
+<div className="relative z-10">
+<h3 className="text-xl font-bold text-pure-white mb-2">Membership</h3>
+<p className="text-pure-white/50 text-sm">Control access to tiers and track specific member activity.</p>
+</div>
+</div>
+
+<div className="rounded-3xl bg-[#0A0A0A] border border-pure-white/10 p-8 flex flex-col justify-between hover:border-[#FF4A00]/50 transition-colors group relative overflow-hidden">
+<div className="absolute -right-10 -top-10 w-32 h-32 bg-[#FF4A00] blur-[60px] opacity-10 group-hover:opacity-20 transition-opacity"></div>
+<div className="w-12 h-12 rounded-full bg-pure-white/5 flex items-center justify-center text-[#FF4A00] mb-6 relative z-10 border border-pure-white/10">
+<span className="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">sell</span>
+</div>
+<div className="relative z-10">
+<h3 className="text-xl font-bold text-pure-white mb-2">Discount</h3>
+<p className="text-pure-white/50 text-sm">Classic discount system with several earning levels.</p>
+</div>
+</div>
+
+<div className="rounded-3xl bg-[#0A0A0A] border border-pure-white/10 p-8 flex flex-col justify-between hover:border-pure-white/50 transition-colors group relative overflow-hidden">
+<div className="absolute -right-10 -top-10 w-32 h-32 bg-pure-white blur-[60px] opacity-10 group-hover:opacity-20 transition-opacity"></div>
+<div className="w-12 h-12 rounded-full bg-pure-white/5 flex items-center justify-center text-pure-white mb-6 relative z-10 border border-pure-white/10">
+<span className="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">confirmation_number</span>
+</div>
+<div className="relative z-10">
+<h3 className="text-xl font-bold text-pure-white mb-2">Coupon</h3>
+<p className="text-pure-white/50 text-sm">Attract new customers with one-off digital coupons.</p>
+</div>
+</div>
+
+<div className="rounded-3xl bg-[#0A0A0A] border border-pure-white/10 p-8 flex flex-col justify-between hover:border-[#00d084]/50 transition-colors group relative overflow-hidden">
+<div className="absolute -right-10 -top-10 w-32 h-32 bg-[#00d084] blur-[60px] opacity-10 group-hover:opacity-20 transition-opacity"></div>
+<div className="w-12 h-12 rounded-full bg-pure-white/5 flex items-center justify-center text-[#00d084] mb-6 relative z-10 border border-pure-white/10">
+<span className="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">layers</span>
+</div>
+<div className="relative z-10">
+<h3 className="text-xl font-bold text-pure-white mb-2">Multipass</h3>
+<p className="text-pure-white/50 text-sm">Sell services in bulk to your customers (e.g. 5 for the price of 4).</p>
+</div>
+</div>
+
+<div className="rounded-3xl bg-[#0A0A0A] border border-pure-white/10 p-8 flex flex-col justify-between hover:border-loyalist-purple/50 transition-colors group relative overflow-hidden">
+<div className="absolute -right-10 -top-10 w-32 h-32 bg-loyalist-purple blur-[60px] opacity-10 group-hover:opacity-20 transition-opacity"></div>
+<div className="w-12 h-12 rounded-full bg-pure-white/5 flex items-center justify-center text-loyalist-purple mb-6 relative z-10 border border-pure-white/10">
+<span className="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">card_giftcard</span>
+</div>
+<div className="relative z-10">
+<h3 className="text-xl font-bold text-pure-white mb-2">Gift Card</h3>
+<p className="text-pure-white/50 text-sm">Sell prepaid gift cards to customers via Apple Wallet.</p>
+</div>
 </div>
 
 </div>
@@ -776,6 +813,56 @@ export default function Home() {
 </section>
 
 
+<section className="bg-[#050505] py-24 px-margin-desktop text-center relative border-t border-pure-white/5 overflow-hidden">
+    <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-mint-accelerator/5 via-[#050505] to-[#050505] pointer-events-none"></div>
+    <div className="max-w-6xl mx-auto relative z-10">
+        <h2 className="font-display-lg-mobile md:text-5xl tracking-tight text-pure-white mb-6">Join over <span className="text-mint-accelerator">30,000 companies.</span></h2>
+        <p className="font-body-lg text-xl text-pure-white/50 mb-12">Recognized globally for ease of use and ROI generation.</p>
+        
+        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-80 hover:opacity-100 transition-opacity duration-500">
+            <div className="flex flex-col items-center gap-2">
+                <div className="w-20 h-24 bg-[#0A0A0A] border border-pure-white/10 rounded-t-full rounded-b-xl flex items-center justify-center relative overflow-hidden group">
+                    <div className="absolute inset-0 bg-gradient-to-b from-[#FFD700]/20 to-transparent opacity-50 group-hover:opacity-100 transition-opacity"></div>
+                    <span className="material-symbols-outlined text-4xl text-[#FFD700] relative z-10 group-hover:scale-110 transition-transform">workspace_premium</span>
+                </div>
+                <span className="text-xs font-bold text-pure-white/60 tracking-wider">TOP RATED</span>
+            </div>
+            
+            <div className="flex flex-col items-center gap-2">
+                <div className="w-20 h-24 bg-[#0A0A0A] border border-pure-white/10 rounded-t-full rounded-b-xl flex items-center justify-center relative overflow-hidden group">
+                    <div className="absolute inset-0 bg-gradient-to-b from-mint-accelerator/20 to-transparent opacity-50 group-hover:opacity-100 transition-opacity"></div>
+                    <span className="material-symbols-outlined text-4xl text-mint-accelerator relative z-10 group-hover:scale-110 transition-transform">rocket_launch</span>
+                </div>
+                <span className="text-xs font-bold text-pure-white/60 tracking-wider">FASTEST SETUP</span>
+            </div>
+            
+            <div className="flex flex-col items-center gap-2">
+                <div className="w-20 h-24 bg-[#0A0A0A] border border-pure-white/10 rounded-t-full rounded-b-xl flex items-center justify-center relative overflow-hidden group">
+                    <div className="absolute inset-0 bg-gradient-to-b from-loyalist-purple/20 to-transparent opacity-50 group-hover:opacity-100 transition-opacity"></div>
+                    <span className="material-symbols-outlined text-4xl text-loyalist-purple relative z-10 group-hover:scale-110 transition-transform">support_agent</span>
+                </div>
+                <span className="text-xs font-bold text-pure-white/60 tracking-wider">BEST SUPPORT</span>
+            </div>
+            
+            <div className="flex flex-col items-center gap-2">
+                <div className="w-20 h-24 bg-[#0A0A0A] border border-pure-white/10 rounded-t-full rounded-b-xl flex items-center justify-center relative overflow-hidden group">
+                    <div className="absolute inset-0 bg-gradient-to-b from-[#00d084]/20 to-transparent opacity-50 group-hover:opacity-100 transition-opacity"></div>
+                    <span className="material-symbols-outlined text-4xl text-[#00d084] relative z-10 group-hover:scale-110 transition-transform">trending_up</span>
+                </div>
+                <span className="text-xs font-bold text-pure-white/60 tracking-wider">BEST ROI</span>
+            </div>
+            
+            <div className="flex flex-col items-center gap-2">
+                <div className="w-20 h-24 bg-[#0A0A0A] border border-pure-white/10 rounded-t-full rounded-b-xl flex items-center justify-center relative overflow-hidden group">
+                    <div className="absolute inset-0 bg-gradient-to-b from-pure-white/20 to-transparent opacity-50 group-hover:opacity-100 transition-opacity"></div>
+                    <span className="material-symbols-outlined text-4xl text-pure-white relative z-10 group-hover:scale-110 transition-transform">thumb_up</span>
+                </div>
+                <span className="text-xs font-bold text-pure-white/60 tracking-wider">EASIEST USE</span>
+            </div>
+        </div>
+    </div>
+</section>
+
 <footer className="bg-[#050505] w-full flex flex-col items-center relative z-20 overflow-hidden">
     
     
@@ -787,7 +874,7 @@ export default function Home() {
             <h2 className="font-display-lg-mobile md:text-[80px] tracking-tighter text-pure-white mb-8 leading-[0.95]">
                 Ready to turn visitors into <br/><span className="text-mint-accelerator italic">obsessed regulars?</span>
             </h2>
-            <p className="font-body-lg text-pure-white/80 text-2xl mb-12 max-w-2xl mx-auto font-light">Join 5,000+ local businesses growing their revenue on autopilot. Set up takes less than 10 minutes.</p>
+            <p className="font-body-lg text-pure-white/80 text-2xl mb-12 max-w-2xl mx-auto font-light">Join 30,000+ local businesses growing their revenue on autopilot. Set up takes less than 10 minutes.</p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                 <button className="bg-pure-white text-loyalist-purple px-12 py-6 rounded-2xl font-bold text-xl hover:bg-mint-accelerator hover:text-stark-black transition-all duration-300 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:-translate-y-2 active:scale-95">
