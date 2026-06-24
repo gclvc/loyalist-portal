@@ -39,9 +39,9 @@ export default function Home() {
         
         <div className="flex items-center gap-4">
             <a href="#" className="hidden lg:block text-sm font-bold text-pure-white/70 hover:text-pure-white transition-colors">Log in</a>
-            <button className="bg-mint-accelerator text-stark-black px-6 py-2.5 rounded-full font-button text-sm hover:opacity-90 transition-all active:scale-95 mint-glow shadow-[0_0_20px_rgba(97,238,128,0.3)]">
+            <a href="https://app.loyalist.digital/registration" className="bg-mint-accelerator text-stark-black px-6 py-2.5 rounded-full font-button text-sm hover:opacity-90 transition-all active:scale-95 mint-glow shadow-[0_0_20px_rgba(97,238,128,0.3)] block text-center">
                 Start Free
-            </button>
+            </a>
         </div>
     </nav>
 </div>
@@ -74,9 +74,9 @@ export default function Home() {
     
     <div className="flex flex-col items-center gap-4 z-20">
         <div className="flex flex-col sm:flex-row items-center gap-6">
-            <button className="bg-mint-accelerator text-stark-black px-12 py-5 rounded-2xl font-button text-lg hover:opacity-100 transition-all mint-glow flex items-center gap-2">
+            <a href="https://app.loyalist.digital/registration" className="bg-mint-accelerator text-stark-black px-12 py-5 rounded-2xl font-button text-lg hover:opacity-100 transition-all mint-glow flex items-center gap-2 text-center">
                 Start Free Trial <span className="material-symbols-outlined">arrow_right_alt</span>
-            </button>
+            </a>
             <a href="https://calendly.com/" target="_blank" rel="noopener noreferrer" className="glass-card text-pure-white px-10 py-5 rounded-2xl font-button text-lg hover:bg-pure-white/10 transition-all flex items-center gap-2">
                 <span className="material-symbols-outlined text-mint-accelerator">calendar_month</span> Schedule Demo
             </a>
@@ -599,7 +599,7 @@ export default function Home() {
 <li className="flex items-center gap-3"><span className="material-symbols-outlined text-mint-accelerator text-lg">check_circle</span> Unlimited digital cards</li>
 <li className="flex items-center gap-3 text-pure-white/30"><span className="material-symbols-outlined text-lg">cancel</span> Advanced analytics</li>
 </ul>
-<button className="w-full bg-pure-white/10 text-pure-white border border-pure-white/20 py-4 rounded-xl font-button hover:bg-pure-white/20 transition-colors">Start free trial</button>
+<a href="https://app.loyalist.digital/registration" className="w-full block text-center bg-pure-white/10 text-pure-white border border-pure-white/20 py-4 rounded-xl font-button hover:bg-pure-white/20 transition-colors">Start free trial</a>
 </div>
 
 <div className="bg-gradient-to-b from-[#1A1A1A] to-[#0A0A0A] p-10 rounded-[2rem] flex flex-col border border-mint-accelerator/30 shadow-[0_30px_60px_rgba(0,0,0,0.5)] relative transform scale-105 z-20 group hover:border-mint-accelerator/80 transition-colors duration-500">
@@ -616,7 +616,7 @@ export default function Home() {
 <li className="flex items-center gap-3"><span className="material-symbols-outlined text-mint-accelerator text-lg">check_circle</span> Unlimited digital cards</li>
 <li className="flex items-center gap-3"><span className="material-symbols-outlined text-mint-accelerator text-lg">check_circle</span> Priority support</li>
 </ul>
-<button className="w-full bg-mint-accelerator text-stark-black py-4 rounded-xl font-button hover:opacity-90 transition-all active:scale-95 mint-glow mb-6">Start free trial</button>
+<a href="https://app.loyalist.digital/registration" className="w-full block text-center bg-mint-accelerator text-stark-black py-4 rounded-xl font-button hover:opacity-90 transition-all active:scale-95 mint-glow mb-6">Start free trial</a>
 <div className="flex items-center gap-3 bg-pure-white/5 p-3 rounded-lg border border-pure-white/10">
     <img className="w-8 h-8 rounded-full grayscale" src="https://i.pravatar.cc/100?img=9" alt="Sarah"/>
     <p className="text-[10px] text-pure-white/60 font-light italic leading-tight">"Since upgrading to Grow, our return visits literally doubled in two months."</p>
@@ -636,7 +636,7 @@ export default function Home() {
 <li className="flex items-center gap-3"><span className="material-symbols-outlined text-mint-accelerator text-lg">check_circle</span> Unlimited digital cards</li>
 <li className="flex items-center gap-3"><span className="material-symbols-outlined text-mint-accelerator text-lg">check_circle</span> Full API Access</li>
 </ul>
-<button className="w-full bg-pure-white/10 text-pure-white border border-pure-white/20 py-4 rounded-xl font-button hover:bg-pure-white/20 transition-colors">Start free trial</button>
+<a href="https://app.loyalist.digital/registration" className="w-full block text-center bg-pure-white/10 text-pure-white border border-pure-white/20 py-4 rounded-xl font-button hover:bg-pure-white/20 transition-colors">Start free trial</a>
 </div>
 </div>
 </div>
@@ -877,9 +877,9 @@ export default function Home() {
             <p className="font-body-lg text-pure-white/80 text-2xl mb-12 max-w-2xl mx-auto font-light">Join 30,000+ local businesses growing their revenue on autopilot. Set up takes less than 10 minutes.</p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-                <button className="bg-pure-white text-loyalist-purple px-12 py-6 rounded-2xl font-bold text-xl hover:bg-mint-accelerator hover:text-stark-black transition-all duration-300 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:-translate-y-2 active:scale-95">
+                <a href="https://app.loyalist.digital/registration" className="bg-pure-white text-loyalist-purple px-12 py-6 rounded-2xl font-bold text-xl hover:bg-mint-accelerator hover:text-stark-black transition-all duration-300 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:-translate-y-2 active:scale-95 block text-center">
                     Start 14-Day Free Trial
-                </button>
+                </a>
                 <button className="bg-black/20 backdrop-blur-md text-pure-white border border-pure-white/20 px-10 py-6 rounded-2xl font-bold text-xl hover:bg-black/40 transition-all duration-300 flex items-center gap-2 active:scale-95">
                     <span className="material-symbols-outlined">calendar_today</span> Book Demo
                 </button>
