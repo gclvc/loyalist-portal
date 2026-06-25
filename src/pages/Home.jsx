@@ -404,7 +404,7 @@ export default function Home() {
                 </div>
 
                 
-                <img className="w-full max-w-[600px] mx-auto relative z-20 drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)] md:translate-y-20 scale-110 hover:scale-115 transition-transform duration-[1.5s]" alt="Scanner App" src="/assets/mobile_app.png"/>
+                <img className="w-full max-w-[600px] mx-auto relative z-20 drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)] md:translate-y-20 scale-110 hover:scale-115 transition-transform duration-[1.5s]" alt="Scanner App" src="/assets/scanner-app-seller.png"/>
             </div>
         </div>
     </div>
@@ -414,11 +414,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
             <div className="w-full md:w-1/2 relative parallax-mouse" data-parallax-speed="15">
                 <div className="absolute -inset-10 bg-loyalist-purple opacity-20 blur-[120px] rounded-full"></div>
-                <img className="w-full relative z-10 drop-shadow-2xl rounded-2xl" src="/assets/kiosk_mode.png" alt="Tablet Kiosk Mode" />
+                <img className="w-full relative z-10 drop-shadow-2xl rounded-2xl" src="/assets/scanner-app-customer.png" alt="Customer App Mode" />
             </div>
             <div className="w-full md:w-1/2">
-                <h3 className="text-3xl font-bold text-pure-white mb-4">Tablet Kiosk Mode</h3>
-                <p className="text-pure-white/60 text-lg mb-8 leading-relaxed">Let your customers serve themselves. Prop a tablet on your front counter and run our app in Kiosk Mode. Customers can quickly check-in, join the program, and view their balance without interrupting your cashier.</p>
+                <h3 className="text-3xl font-bold text-pure-white mb-4">Customer App Experience</h3>
+                <p className="text-pure-white/60 text-lg mb-8 leading-relaxed">Customers can save their cards directly to Apple or Google Wallet, but they also have the option to use our native app. They can quickly check-in, join the program, and view their balance easily.</p>
                 <ul className="space-y-4">
                     <li className="flex items-center gap-3 text-pure-white/80"><span className="material-symbols-outlined text-mint-accelerator">check_circle</span> Zero staff training required</li>
                     <li className="flex items-center gap-3 text-pure-white/80"><span className="material-symbols-outlined text-mint-accelerator">check_circle</span> Captures phone numbers automatically</li>
