@@ -1023,13 +1023,13 @@ export default function Home() {
                     <li><a className="text-pure-white/60 hover:text-mint-accelerator transition-colors" href="#">About Us</a></li>
                     <li><a className="text-pure-white/60 hover:text-mint-accelerator transition-colors" href="#">Privacy Policy</a></li>
                     <li><a className="text-pure-white/60 hover:text-mint-accelerator transition-colors" href="#">Terms of Service</a></li>
-                    <li className="text-pure-white/40 pt-4">support@salesevo.com</li>
+                    <li className="text-pure-white/40 pt-4">info@loyalist.digital</li>
                 </ul>
             </div>
         </div>
         
         <div className="w-full max-w-7xl mx-auto pt-8 border-t border-pure-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
-            <p className="font-body-md text-sm text-pure-white/40">© 2026 Sales EVO LTD. All rights reserved.</p>
+            <p className="font-body-md text-sm text-pure-white/40">© 2026 Loyalist Digital. All rights reserved.</p>
             <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-mint-accelerator animate-pulse"></div>
                 <span className="text-sm text-pure-white/40">All systems operational</span>
