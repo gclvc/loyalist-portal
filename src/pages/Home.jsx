@@ -863,6 +863,102 @@ export default function Home() {
     </div>
 </section>
 
+{/* Pricing Section */}
+<section className="bg-[#050505] w-full py-32 px-margin-desktop relative z-20 flex flex-col items-center border-t border-pure-white/10" id="pricing">
+    <div className="absolute inset-0 bg-grid-pattern opacity-10 mix-blend-screen pointer-events-none"></div>
+    <div className="w-full max-w-7xl mx-auto relative z-10 flex flex-col items-center">
+        
+        <div className="flex items-center gap-3 mb-6">
+            <span className="h-[2px] w-8 bg-mint-accelerator"></span>
+            <span className="font-display font-bold tracking-widest text-mint-accelerator uppercase text-sm">Pricing</span>
+        </div>
+        
+        <h2 className="text-4xl md:text-6xl font-bold font-display text-pure-white text-center mb-6 leading-tight">
+            Plans that scale with you.
+        </h2>
+        <p className="text-lg md:text-xl text-pure-white/60 text-center max-w-2xl mb-16 font-body-md leading-relaxed">
+            Stop paying for expensive printed cards and social ads that do not convert. Pay a flat rate, keep 100% of the revenue.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
+            
+            {/* Basic */}
+            <div className="glass-card rounded-3xl p-8 flex flex-col hover:-translate-y-2 transition-transform duration-300">
+                <h3 className="text-xl font-bold text-pure-white mb-2">Basic</h3>
+                <p className="text-pure-white/60 text-sm mb-6">For small businesses that plan to become big</p>
+                <div className="text-4xl font-bold text-pure-white mb-1">£79 <span className="text-lg text-pure-white/40 font-normal">/mo</span></div>
+                
+                <div className="w-full h-px bg-pure-white/10 my-6"></div>
+                
+                <ul className="space-y-4 mb-8 flex-grow">
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">1 Location</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">1 Promotion</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-pure-white/20 text-sm mt-1">close</span><span className="text-pure-white/40 text-sm">No managers</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white font-bold text-sm">∞ Digital Cards</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white font-bold text-sm">∞ Push-notifications</span></li>
+                </ul>
+                <button className="w-full py-4 rounded-full border border-pure-white/20 text-pure-white font-bold hover:bg-pure-white hover:text-[#050505] transition-colors">Start Basic</button>
+            </div>
+
+            {/* Pro */}
+            <div className="glass-card rounded-3xl p-8 flex flex-col border-mint-accelerator/50 bg-mint-accelerator/5 relative hover:-translate-y-2 transition-transform duration-300 mint-glow">
+                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-mint-accelerator text-[#050505] text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider">Most Popular</div>
+                <h3 className="text-xl font-bold text-mint-accelerator mb-2">Pro</h3>
+                <p className="text-pure-white/60 text-sm mb-6">For growing businesses with several points of sale</p>
+                <div className="text-4xl font-bold text-pure-white mb-1">£99 <span className="text-lg text-pure-white/40 font-normal">/mo</span></div>
+                
+                <div className="w-full h-px bg-pure-white/10 my-6"></div>
+                
+                <ul className="space-y-4 mb-8 flex-grow">
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">3 Locations</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">3 Promotions</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">10 Managers</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-mint-accelerator font-bold text-sm">∞ Digital Cards</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-mint-accelerator font-bold text-sm">∞ Push-notifications</span></li>
+                </ul>
+                <button className="w-full py-4 rounded-full bg-mint-accelerator text-[#050505] font-bold hover:bg-white transition-colors">Start Pro</button>
+            </div>
+
+            {/* Premium */}
+            <div className="glass-card rounded-3xl p-8 flex flex-col hover:-translate-y-2 transition-transform duration-300">
+                <h3 className="text-xl font-bold text-pure-white mb-2">Premium</h3>
+                <p className="text-pure-white/60 text-sm mb-6">For businesses that intend to become market leaders</p>
+                <div className="text-4xl font-bold text-pure-white mb-1">£119 <span className="text-lg text-pure-white/40 font-normal">/mo</span></div>
+                
+                <div className="w-full h-px bg-pure-white/10 my-6"></div>
+                
+                <ul className="space-y-4 mb-8 flex-grow">
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">10 Locations</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">10 Promotions</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">50 Managers</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white font-bold text-sm">∞ Digital Cards</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white font-bold text-sm">∞ Push-notifications</span></li>
+                </ul>
+                <button className="w-full py-4 rounded-full border border-pure-white/20 text-pure-white font-bold hover:bg-pure-white hover:text-[#050505] transition-colors">Start Premium</button>
+            </div>
+
+            {/* Franchise */}
+            <div className="glass-card rounded-3xl p-8 flex flex-col hover:-translate-y-2 transition-transform duration-300 border-loyalist-purple/30 bg-loyalist-purple/5">
+                <h3 className="text-xl font-bold text-[#A875FF] mb-2">Franchise</h3>
+                <p className="text-pure-white/60 text-sm mb-6">Custom white-label solutions for large scale networks</p>
+                <div className="text-4xl font-bold text-pure-white mb-1">Custom</div>
+                
+                <div className="w-full h-px bg-pure-white/10 my-6"></div>
+                
+                <ul className="space-y-4 mb-8 flex-grow">
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">Unlimited Locations</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">Custom Control Panel</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">White-label Options</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">Dedicated Account Rep</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">Custom Integrations</span></li>
+                </ul>
+                <button className="w-full py-4 rounded-full bg-[#A875FF] text-[#050505] font-bold hover:bg-white transition-colors">Contact Sales</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 <footer className="bg-[#050505] w-full flex flex-col items-center relative z-20 overflow-hidden">
     
     
