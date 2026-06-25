@@ -404,7 +404,7 @@ export default function Home() {
                 </div>
 
                 
-                <img className="w-full max-w-[600px] mx-auto relative z-20 drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)] md:translate-y-20 scale-110 hover:scale-115 transition-transform duration-[1.5s]" alt="Scanner App" src="/assets/scanner_mockup.png"/>
+                <img className="w-full max-w-[600px] mx-auto relative z-20 drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)] md:translate-y-20 scale-110 hover:scale-115 transition-transform duration-[1.5s]" alt="Scanner App" src="/assets/mobile_app.png"/>
             </div>
         </div>
     </div>
