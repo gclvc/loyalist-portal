@@ -941,16 +941,15 @@ export default function Home() {
             <div className="glass-card rounded-3xl p-8 flex flex-col hover:-translate-y-2 transition-transform duration-300 border-loyalist-purple/30 bg-loyalist-purple/5">
                 <h3 className="text-xl font-bold text-[#A875FF] mb-2">Franchise</h3>
                 <p className="text-pure-white/60 text-sm mb-6">Custom white-label solutions for large scale networks</p>
-                <div className="text-4xl font-bold text-pure-white mb-1">Custom</div>
+                <div className="text-4xl font-bold text-pure-white mb-1">£500+ <span className="text-lg text-pure-white/40 font-normal">/mo</span></div>
                 
                 <div className="w-full h-px bg-pure-white/10 my-6"></div>
                 
                 <ul className="space-y-4 mb-8 flex-grow">
-                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">Unlimited Locations</span></li>
-                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">Custom Control Panel</span></li>
-                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">White-label Options</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">Master & Branch Panels</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">White-label App Branding</span></li>
+                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">Omnichannel API Access</span></li>
                     <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">Dedicated Account Rep</span></li>
-                    <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">Custom Integrations</span></li>
                 </ul>
                 <button className="w-full py-4 rounded-full bg-[#A875FF] text-[#050505] font-bold hover:bg-white transition-colors">Contact Sales</button>
             </div>
