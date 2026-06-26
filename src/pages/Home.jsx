@@ -897,7 +897,7 @@ export default function Home() {
                     <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white font-bold text-sm">∞ Digital Cards</span></li>
                     <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white font-bold text-sm">∞ Push-notifications</span></li>
                 </ul>
-                <button className="w-full py-4 rounded-full border border-pure-white/20 text-pure-white font-bold hover:bg-pure-white hover:text-[#050505] transition-colors">Start Basic</button>
+                <a href="https://app.loyalist.digital/registration" className="w-full py-4 rounded-full border border-pure-white/20 text-pure-white font-bold hover:bg-pure-white hover:text-[#050505] transition-colors block text-center">Start Basic</a>
             </div>
 
             {/* Pro */}
@@ -916,7 +916,7 @@ export default function Home() {
                     <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-mint-accelerator font-bold text-sm">∞ Digital Cards</span></li>
                     <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-mint-accelerator font-bold text-sm">∞ Push-notifications</span></li>
                 </ul>
-                <button className="w-full py-4 rounded-full bg-mint-accelerator text-[#050505] font-bold hover:bg-white transition-colors">Start Pro</button>
+                <a href="https://app.loyalist.digital/registration" className="w-full py-4 rounded-full bg-mint-accelerator text-[#050505] font-bold hover:bg-white transition-colors block text-center">Start Pro</a>
             </div>
 
             {/* Premium */}
@@ -934,7 +934,7 @@ export default function Home() {
                     <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white font-bold text-sm">∞ Digital Cards</span></li>
                     <li className="flex items-start gap-3"><span className="material-symbols-outlined text-mint-accelerator text-sm mt-1">check</span><span className="text-pure-white font-bold text-sm">∞ Push-notifications</span></li>
                 </ul>
-                <button className="w-full py-4 rounded-full border border-pure-white/20 text-pure-white font-bold hover:bg-pure-white hover:text-[#050505] transition-colors">Start Premium</button>
+                <a href="https://app.loyalist.digital/registration" className="w-full py-4 rounded-full border border-pure-white/20 text-pure-white font-bold hover:bg-pure-white hover:text-[#050505] transition-colors block text-center">Start Premium</a>
             </div>
 
             {/* Franchise */}
@@ -951,7 +951,7 @@ export default function Home() {
                     <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">Omnichannel API Access</span></li>
                     <li className="flex items-start gap-3"><span className="material-symbols-outlined text-[#A875FF] text-sm mt-1">check</span><span className="text-pure-white/80 text-sm">Dedicated Account Rep</span></li>
                 </ul>
-                <button className="w-full py-4 rounded-full bg-[#A875FF] text-[#050505] font-bold hover:bg-white transition-colors">Contact Sales</button>
+                <a href="https://wa.me/4407742793212" target="_blank" rel="noopener noreferrer" className="w-full py-4 rounded-full bg-[#A875FF] text-[#050505] font-bold hover:bg-white transition-colors block text-center">Contact Sales</a>
             </div>
 
         </div>
