@@ -90,7 +90,7 @@ export default function Home() {
                 <div className="w-8 h-8 rounded-full border-2 border-[#050505] bg-loyalist-purple flex items-center justify-center text-[10px] font-bold text-pure-white">+5k</div>
             </div>
             <p className="text-pure-white/50 font-label-md text-xs">
-                Join 30,000+ local businesses growing today.
+                Join dozens of local businesses growing today.
             </p>
         </div>
         <p className="text-pure-white/40 font-label-md text-sm flex items-center gap-2 mt-2">
@@ -948,7 +948,7 @@ export default function Home() {
             <h2 className="font-display-lg-mobile md:text-[80px] tracking-tighter text-pure-white mb-8 leading-[0.95]">
                 Ready to turn visitors into <br/><span className="text-mint-accelerator italic">obsessed regulars?</span>
             </h2>
-            <p className="font-body-lg text-pure-white/80 text-2xl mb-12 max-w-2xl mx-auto font-light">Join 30,000+ local businesses growing their revenue on autopilot. Set up takes less than 10 minutes.</p>
+            <p className="font-body-lg text-pure-white/80 text-2xl mb-12 max-w-2xl mx-auto font-light">Join dozens of local businesses growing their revenue on autopilot. Set up takes less than 10 minutes.</p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                 <a href="https://app.loyalist.digital/registration" className="bg-pure-white text-loyalist-purple px-12 py-6 rounded-2xl font-bold text-xl hover:bg-mint-accelerator hover:text-stark-black transition-all duration-300 shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:-translate-y-2 active:scale-95 block text-center">
