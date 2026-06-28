@@ -105,27 +105,6 @@ export default function Home() {
 </div>
 </section>
 
-    
-    <section className="bg-[#050505] border-y border-pure-white/5 py-10 px-margin-desktop text-center relative z-10 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-transparent to-[#050505] z-10 pointer-events-none w-full"></div>
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 relative z-0">
-            <div className="flex flex-col items-center md:items-start text-left">
-                <div className="flex text-[#FFD700] text-xl mb-1 drop-shadow-[0_0_10px_rgba(255,215,0,0.5)]">
-                    ★★★★★
-                </div>
-                <p className="font-label-md text-pure-white/60 text-sm">Rated 4.9/5 by 30,000+ businesses</p>
-            </div>
-            
-            <div className="flex flex-wrap justify-center items-center gap-10 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-                <div className="flex items-center gap-2 text-pure-white font-bold text-xl"><span className="material-symbols-outlined text-3xl">local_cafe</span> Brews & Co.</div>
-                <div className="flex items-center gap-2 text-pure-white font-bold text-xl"><span className="material-symbols-outlined text-3xl">fitness_center</span> Iron Gym</div>
-                <div className="flex items-center gap-2 text-pure-white font-bold text-xl"><span className="material-symbols-outlined text-3xl">content_cut</span> The Salon</div>
-                <div className="flex items-center gap-2 text-pure-white font-bold text-xl"><span className="material-symbols-outlined text-3xl">restaurant</span> Bistro 42</div>
-                <div className="flex items-center gap-2 text-pure-white font-bold text-xl"><span className="material-symbols-outlined text-3xl">shopping_bag</span> Retail POS</div>
-            </div>
-        </div>
-    </section>
-
 
 <section className="bg-[#050505] py-32 px-margin-desktop relative overflow-hidden">
     
