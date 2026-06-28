@@ -795,7 +795,7 @@ export default function Home() {
 <section className="bg-[#050505] py-24 px-margin-desktop text-center relative border-t border-pure-white/5 overflow-hidden">
     <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-mint-accelerator/5 via-[#050505] to-[#050505] pointer-events-none"></div>
     <div className="max-w-6xl mx-auto relative z-10">
-        <h2 className="font-display-lg-mobile md:text-5xl tracking-tight text-pure-white mb-6">Join over <span className="text-mint-accelerator">30,000 companies.</span></h2>
+        <h2 className="font-display-lg-mobile md:text-5xl tracking-tight text-pure-white mb-6">Join <span className="text-mint-accelerator">dozens of companies.</span></h2>
         <p className="font-body-lg text-xl text-pure-white/50 mb-12">Recognized globally for ease of use and ROI generation.</p>
         
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-80 hover:opacity-100 transition-opacity duration-500">
